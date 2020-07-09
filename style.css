@@ -79,7 +79,33 @@ form input[type="submit"]{
     font-family: IranSansWeb;
     background-color: #0064d3;
     margin-top: 35px;
-    border:  3px solid #eee;
+    /* border:  3px solid #eee; */
     box-shadow: -5px -5px 5px #fff,
                 5px 5px 5px rgba(0, 0, 0, .3);
+    cursor: pointer;
+
+}
+
+form input[type="submit"]:hover{
+    /* background-color: #004799; */
+}
+
+form input[type="submit"]:active{
+
+    
+    box-shadow: -5px -5px 5px #fff,
+                5px 5px 5px rgba(0, 0, 0, .3),
+                inset -5px -5px 5px rgba(255,255,255,.3),
+                inset 5px 5px 5px rgba(0, 0, 0, .3);
+}
+
+.forgot {
+    text-align: center;
+    padding: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #999;
 }
